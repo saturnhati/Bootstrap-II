@@ -3,11 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="https://kit.fontawesome.com/51292258d4.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap II</title>
   </head>
   <body>
+    <!-- HEADER NAVBAR -->
+    <nav class="navbar navbar-expand-md bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Nome azienda</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+          <ul class="navbar-nav mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Servizi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">La nostra storia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Come contattarci</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- CONTAINER HERO -->
+    <div class="container p-3 p-md-0">
+      <div class="row mt-5 align-items-center justify-content-between justify-content-lg-center gap-lg-5">
+        <div class="col-md-6 col-xxl-5"><img class="col-12" src="https://picsum.photos/400/250" alt="" /></div>
+        <div class="col-md-4 mt-3 mt-md-0 col-xxl-4">
+          <h2>Con passione creiamo valore!</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt ipsam cum consectetur maxime ea culpa molestiae architecto blanditiis accusantium autem minima possimus, tempore, sint, sequi deleniti aperiam a laudantium odio.</p>
+          <button class="btn btn-primary">I nostri risultati</button>
+        </div>
+      </div>
+    </div>
+    <!-- CONTAINER UNICO LOREM -->
+    <div class="container mt-5 mb-4 bg-primary text-white p-4 text-center mw-50">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae quasi iure aliquam totam similique illum dolor, exercitationem praesentium consequatur</div>
+    <!-- CONTAINER CARDS -->
+    <div class="container mb-5">
+      <div class="row justify-content-md-between flex-column flex-sm-row gap-4 align-items-center">
+        <div class="card px-0 mt-4" style="width: 14rem">
+          <div class="card-body">
+            <h5 class="card-title">Primo servizio</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, aspernatur. Praesentium beatae odio nulla inventore accusamus vero. Dolorem nam reprehenderit quibusdam nobis quidem exercitationem, culpa, tempora in laudantium consequuntur rem!</p>
+          </div>
+          <div class="card-footer m-0">
+            <a href="#" class="btn btn-primary">Leggi di più</a>
+          </div>
+        </div>
+        <div class="card px-0 mt-4" style="width: 14rem">
+          <div class="card-body">
+            <h5 class="card-title">Secondo servizio</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, aspernatur. Praesentium beatae odio nulla inventore accusamus vero. Dolorem nam reprehenderit quibusdam nobis quidem exercitationem, culpa, tempora in laudantium consequuntur rem!</p>
+          </div>
+          <div class="card-footer m-0">
+            <a href="#" class="btn btn-primary">Leggi di più</a>
+          </div>
+        </div>
+        <div class="card px-0 mb-5 mt-4 mb-md-0" style="width: 14rem">
+          <div class="card-body">
+            <h5 class="card-title">Terzo servizio</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, aspernatur. Praesentium beatae odio nulla inventore accusamus vero. Dolorem nam reprehenderit quibusdam nobis quidem exercitationem, culpa, tempora in laudantium consequuntur rem!</p>
+          </div>
+          <div class="card-footer m-0">
+            <a href="#" class="btn btn-primary">Leggi di più</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="fixed-bottom text-center text-white bg-dark pt-3">
+      <p>&copy; Nome azienda 2022 P.IVA: 001122334455</p>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>
 </html>

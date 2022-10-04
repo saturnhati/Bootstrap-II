@@ -1,0 +1,28 @@
+p {
+    font-size: 0.6rem;
+}
+
+:root {
+    --bs-border-width: 0; 
+    --bs-primary: #704E9A;
+    --bs-primary-rgb: 112, 78, 154; 
+}
+
+.btn-primary {
+    --bs-btn-bg: #704E9A;
+    --bs-btn-border-color: #704E9A;
+    --bs-btn-hover-bg: #8f65c3;
+    --bs-btn-hover-border-color: #8f65c3;
+    --bs-btn-active-border-color: #6a5188;
+    --bs-btn-active-bg: #6a5188;
+}
+
+@media (min-width: 1200px){
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl {
+        max-width: 920px;
+    }
+}
